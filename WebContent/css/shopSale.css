@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container-shop-sale {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.295);
+}
+header {
+    background: black;
+}
+header .nav-header-web{
+	display: none;
+}
+footer {
+	display: none;
+} 
+/*Para la sección*/
+#cont-shopSale-section {
+    width: 70%;
+    min-width: 22rem;
+    max-width: 65rem;
+    padding: 5rem 0rem;
+}
+#cont-shopSale-section > div {
+    margin: auto;
+    border: 1px solid dimgray;
+}
+/*Para el contenedor del subtítulo*/
+#container-shop-sale #cont-shopSale-section > div > div:first-child {
+    background: brown;
+    padding: 0.8rem 0rem;
+}
+/*Para el subtítulo*/
+#container-shop-sale #cont-shopSale-section > div > div:first-child h3 {
+    text-align: center;
+    color: white;
+    font-size: 16pt;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Para el contenedor del formulario*/
+#container-shop-sale > div.cont-form-shop {
+    
+}
+/*Para el formulario*/
+.cont-form-shop {
+}
+/*
+.cont-form-shop table {
+    width: 100%;
+    background:rgba(22,28,29,0.9);
+}
+.cont-form-shop table thead tr th {
+    font-size: 14pt;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem 0.2rem;
+    color: white;
+}
+.cont-form-shop table thead tr  {
+    background: rgb(90, 201, 90);
+    text-align: center;
+}
+.cont-form-shop table tbody tr td {
+    font-size: 12pt;
+    font-family: Roboto-regular, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+}
+.cont-form-shop table tbody tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.158);
+}
+.cont-form-shop table tbody tr td img {
+    width: 4rem;
+    height: 4rem;
+}
+.cont-form-shop table tbody tr td input[type="number"] {
+    background: rgba(207, 207, 207, 0.158);
+    width: 5rem;
+}
+*/
+#cont-shopSale-aside {
+    width: 28%;
+}
+/*Para el formulario de boleta*/
+#cont-aside-shop {    
+    background: rgba(22,28,29,0.9);
+    width: 18rem;
+    margin: auto;
+    margin-top: 5rem;
+    border: 1px solid dimgray;
+}
+#cont-shopSale-aside #cont-aside-shop > div:first-child {    
+    padding: 1rem;
+    border-bottom: 3px solid white;
+}
+#cont-shopSale-aside #cont-aside-shop > div:first-child h3 {    
+    text-align: center;
+    font-size: 20pt;
+}
+.fields_shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.1rem 0.3rem;
+}
+.fields_shop label {
+    color: white;
+    font-size: 11pt;
+    font-family: Roboro-regular, Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+.fields_shop input {
+    width: 50%;
+    padding: 0.5rem;
+    text-align: right;
+    font-family: Roboto-regular, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+#cont-shopSale-aside #cont-aside-shop form p {    
+    font-size: 8pt;
+    text-align: center;
+    padding: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+}
+#cont-shopSale-aside #cont-aside-shop form > div:last-child {
+    background: rgb(90, 201, 90);
+}
+#cont-shopSale-aside #cont-aside-shop form > div:last-child button {    
+    width: 100%;
+    padding: 1rem;
+    background: rgb(90, 201, 90);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 16pt;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+    transition: color, background 0.3s;
+}
+#cont-shopSale-aside #cont-aside-shop form > div:last-child button:hover {
+    background: white;
+    border: 2px solid rgb(90, 201, 90);
+    color: rgb(90, 201, 90);
+}
+.cont-btn-shop-cant {
+    margin-top: 0.5rem;
+}
+.cont-btn-shop-cant .btn-shop-cant-up {
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    background: white;
+    border: none;
+    outline-color: rgb(90, 201, 90);
+    color: dimgray;
+    cursor: pointer;
+}
+.cont-btn-shop-cant .btn-shop-cant-down {
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    background: white;
+    border: none;
+    outline-color: brown;
+    color: dimgray;
+    cursor: pointer;
+}

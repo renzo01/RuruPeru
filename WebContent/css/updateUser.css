@@ -1,0 +1,76 @@
+body {
+    /* background: url("../images/content/banners/background-log-reg.jpg"); */
+}
+/* Container principal del formulario de login */
+#container-update-user > div > h2 {
+    font-size: 32pt;
+}
+#container-update-user > div:nth-child(1) {
+    padding: 0.76rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#container-update-user > div:nth-child(1) h3 {
+    font-size: 16pt;
+    margin-top: 0.3rem;
+    text-align: center;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Container de del formulario */
+#container-update-user #cont-log-reg {
+    padding: 1em;
+    /* background: url("../images/content/presentations/pres3.jpg"); */
+    /* background: rgb(124, 124, 124); */
+}
+.log-reg form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+    min-width: 150px;
+}
+.log-reg form .update-user-fields {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 3rem;
+    margin-bottom: 1em;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid dimgray;
+    transition: all 0.3s;
+}
+.update-user-fields:hover {
+    box-shadow: 0px 0px 5px 1px black;
+}
+.update-user-fields label {
+    padding: 0.3rem;
+    width: 3rem;
+    background-color: white;
+    text-align: center;
+}
+.update-user-fields input, .update-user-fields select {
+    width: 15em;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    font-size: 12pt;
+}
+#btn_updateToCli {
+    padding: 0.8em 2em;
+    margin: 1em;
+    color: white;
+    background-color: brown;
+    outline-color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 12pt;
+    transition: background, color, border 0.3s;
+}
+#btn_updateToCli:hover {
+    color: brown;
+    background-color: white;
+    border: 2px solid brown;
+}

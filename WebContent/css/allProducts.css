@@ -1,0 +1,121 @@
+#cont-allProducts-title {
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+#cont-allProducts-title h3 {
+    display: inline-block;
+    padding: 0.7rem;
+    padding-top: 1.5rem;
+    font-size: 24pt;
+    color: dimgray;
+}
+.cont-allProducts-form {
+    background: dimgray;
+}
+.cont-allProducts-form form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    color: white;
+}
+.fields-allProducts {
+    width: 50%;
+    padding: 0.5rem;
+    text-align: center;
+}
+.fields-allProducts label {
+    font-size: 11pt;
+    font-family: Roboto-bold;
+    margin-right: 0.5rem;
+}
+.fields-allProducts input {
+    width: 75%;
+    border-radius: 5px;
+    outline-color: brown;
+    padding: 0.1rem 0.5rem;
+    font-size: 10pt;
+    font-family: Roboto-regular;
+}
+.fields-allProducts select {
+    width: 70%;
+    border-radius: 5px;
+    outline-color: brown;
+    padding: 0.1rem 0.5rem;
+    font-size: 10pt;
+    font-family: Roboto-regular;
+}
+.fields-allProducts #btn-order-up, #btn-order-down  {
+    width: 3rem;
+    height: 2rem;
+    font-size: 12pt;
+    padding: 0.5rem;
+    color: white;
+    background: brown;
+    border: none;
+    outline-color: rgb(90, 201, 90);
+}
+.cont-allProducts-form form > div:last-child {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+}
+#btn-allp-form {
+    width: 7rem;
+    height: 2.2rem;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 8px;
+    font-family: Roboto-bold;
+    background: rgb(90, 201, 90);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color, background 0.3s;
+}
+#btn-allp-form:hover {
+    background: white;
+    color: rgb(90, 201, 90);
+    border: 2px solid rgb(90, 201, 90);
+}
+
+.cont-allProducts-table {
+    overflow-x: scroll hidden;
+    padding: 0.5rem;
+}
+.allProducts-table {
+    margin: auto;
+    color: white;
+}
+.allProducts-table thead tr {
+    background: rgba(165, 42, 42, 0.9);
+}
+.allProducts-table thead th {
+    padding: 0.8rem 1.5rem;
+    font-size: 12pt;
+    font-family: Roboto-bold;
+    color: white;
+}
+.allProducts-table tbody tr:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.8);
+}
+.allProducts-table tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.7);
+}
+.allProducts-table td:first-child {
+    padding: 0px;
+}
+.allProducts-table td:first-child img {
+    width: 7rem;
+    height: 5.5rem;
+}
+.allProducts-table td {
+    padding: 0rem 0.5rem;
+    text-align: center;
+    font-size: 11pt;
+    font-family: Roboto-regular;
+}
+.allProducts-table td p {
+    text-align: justify;
+}

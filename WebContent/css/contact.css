@@ -1,0 +1,132 @@
+header nav > ul > li:nth-child(4) .list-bottom-line {
+	width: 100%;
+}
+
+/* ------- Para el video del banner ---- */
+/* Para el contenedor de la imagen del banner-principal */
+#banner-principal {
+    position: relative;
+    width: 100%;
+    vertical-align: vertical;
+}
+/* Para la imagen del banner-principal */
+#banner-principal img {
+    width: 100%;
+    overflow: hidden;
+    max-height: 60em;
+}
+
+/* Para las letras del video-banner */
+#banner-letters {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 2.5vw;
+    animation: anim-letters-banner 1.5s ease-out both;
+    animation-delay: 0.5s;
+    text-shadow: 1px 1px 3px black;
+}
+
+@keyframes anim-letters-banner {
+    0% {opacity: 0; top: 40%;};
+    25% {opacity: 0; top: 30%};
+    50% {opacity: 0; top: 20%};
+    75% {opacity: 0.7; top: 10%};
+    100% {opacity: 0.9; color: dimgray; };
+}
+
+/* ------- FIN de la imagen del banner ---- */
+h5 {
+    font-size: 2.8vw;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#search-product {
+    margin-bottom: 1rem;
+}
+
+#search-product form {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em;
+}
+
+#search-product .search-fields {
+    display: inline-block;
+    padding: 0.3em 0.5em;
+}
+#search-product .search-fields label, #search-product .search-fields input {
+    display: inline-block;
+    padding: 0.3em 0.5em;
+    margin: 0.5em;
+    width: 8em;
+    color: white;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px black;
+    font-size: 14pt;
+}
+#search-product .search-fields input {
+    background: transparent;
+    font-size: 12pt;
+}
+
+#btn-search {
+    display: block;
+    padding: 0.5em;
+    margin: 0.5rem;
+    background-color: brown;
+    width: 12em;
+    height: 3em;
+    color: var(--bg-white);
+}
+
+
+/* ------------------------ INICIO: Para el contenido expreso de la WEB -------------------------- */
+
+/* Para el contenedor de los productos */
+.container-content {
+    /* background: linear-gradient(to right, var(--bg-color0), var(--bg-color1)); */
+    /* background: url("../images/content/banners/adult-cellphone.jpg"); */
+    background-color: rgb(245, 236, 236);
+    position: relative;
+    width: 100%;
+}
+#cont-img-adult-cellphone img {
+    width: 100%;
+}
+
+#information-contact { 
+    position: absolute;
+    left: 48%;
+    top: 37%;
+}
+#information-contact h3 { 
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 3px 3px 10px black;
+}
+#information-contact > div { 
+    display: flex;
+    flex-direction: column;
+}
+#information-contact > div p {
+    display: flex;
+    font-size: 2.5vw;
+    align-items: center;
+    text-shadow: 3px 3px 10px black;
+    margin: 0.5rem;
+}
+#information-contact > div p span { 
+    margin-left: 0.7em;
+}
+#information-contact > div img { 
+    float: left;
+    width: 1.5em;
+}
+
+

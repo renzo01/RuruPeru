@@ -1,0 +1,134 @@
+
+
+/* ------------------------ Para el contenido expreso de la WEB -------------------------- */
+
+/* Para el contenedor de los productos */
+#container-all {
+	height: 100vh;
+}
+.container-content {
+    display: flex;
+    
+    /* background: linear-gradient(to right, var(--bg-color0), var(--bg-color1)); */
+    /* background: url("../images/content/banners/banner2.jpg") fixed; */
+    /* background: url("../images/content/banners/background-banner.jpg") fixed; */
+    /* background: url("../images/content/presentations/pres1.jpg") fixed; */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,5,1) 20%, rgba(22,28,29,1) 71%, rgba(12,33,0,1) 87%, rgba(47,18,7,1) 100%); */
+    background: white;
+}
+
+aside {
+    height: 100vh;
+    width: 20%;
+    min-width: 22rem;
+    max-width: 24rem;
+    background: rgba(22,28,29,1);
+}
+aside .aside-head > p {
+    text-align: center;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    padding: 1rem;
+    background: brown;
+}
+aside .aside-head > div p {
+    text-align: center;
+    font-family: Roboto-bold;
+    font-size: 10pt;
+    padding: 0.5rem;
+}
+aside .aside-head > div {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+aside .aside-head > div > div:nth-child(1) {
+    padding: 0.5rem;
+    border-radius: 50px;
+    background: white;
+    width: 5rem;
+    height: 5rem;
+}
+aside .aside-head > div > div img {
+    width: 100%;
+    height: 100%;
+}
+aside .aside-body {
+    text-align: center;
+    margin-top: 2rem;
+}
+.aside-body > ul > li {
+    list-style: none;
+    font-size: 14pt;
+    cursor: pointer;
+    border: 0.1px solid dimgray;
+}
+.aside-body .head-element-1, .head-element-2 {
+    
+}
+.aside-body > ul > li > ul > li:first-child {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+}
+.aside-body > ul > li > ul > li > ul > li {
+    list-style: none;
+    padding: 1rem;
+    width: 100%;
+}
+.aside-body > ul > li > ul > li > ul > li a {
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.aside-body > ul > li > ul > li > ul > li a:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+.aside-body > ul > li span {
+    display: inline-block;
+}
+.aside-body ul > li img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.aside-body .head-element-style {
+    text-align: center;
+}
+.aside-body .body-element-style ul li {
+    font-size: 12pt;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: default;
+}
+.aside-body .head-element-1 .body-element-1 {
+    list-style: none;
+}
+.cont-btn-provider {
+    margin-top: 100%;
+    text-align: center;
+}
+.cont-btn-provider a {
+    margin: auto;
+    height: 5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 10pt;
+    text-shadow: 1px 1px 3px black;
+}
+/*---------------------------------------------------*/
+section {
+    border: 1px solid white;
+    width: 80%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+section iframe {
+    color: white;
+    width: 100%;
+    height: 100vh;
+}

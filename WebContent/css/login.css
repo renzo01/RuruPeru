@@ -1,0 +1,191 @@
+/* body {
+    background: url("../images/content/banners/background-log-reg.jpg");
+} */
+/* iframe {
+    position: relative;
+    width: 25rem;
+    margin: auto;
+    border: 1px dotted white;
+    background: rgba(0, 0, 0, 0.5);
+} */
+#cont-log-reg-reset {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 50;
+	display: none;
+}
+
+.container-log-reg {
+	position: relative;
+	width: 25rem;
+	margin: auto;
+	border: 1px dotted white;
+	background: rgba(0, 0, 0, 0.5);
+}
+/* Container principal del formulario de login */
+.container-log-reg > div > h2 {
+	font-size: 32pt;
+}
+
+.container-log-reg > div:nth-child(1) {
+	padding: 1rem;
+	background-color: brown;
+}
+
+#container-log-reg-2 > div:nth-child(1) {
+	background-color: mediumslateblue;
+}
+
+#container-log-reg-3 > div:nth-child(1) {
+	background-color: goldenrod;
+}
+
+.container-log-reg > div:nth-child(1) h3 {
+	font-size: 16pt;
+	margin-top: 0.3rem;
+	text-align: center;
+	font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Para el botón que cierra el formulario de login y registro*/
+.close_log_reg {
+	position: absolute;
+	outline: none;
+	right: 15px;
+	top: 15px;
+	background: white;
+	color: brown;
+	font-size: 16pt;
+	width: 2rem;
+	height: 2rem;
+	padding: 0.1rem;
+	font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+	cursor: pointer;
+}
+/* Container de del formulario */
+.container-log-reg #cont-log-reg {
+	padding: 1em;
+	/* background: url("../images/content/presentations/pres3.jpg");
+    background: rgb(124, 124, 124); */
+}
+
+.log-reg form {
+	display: flex;
+	flex-direction: column;
+	margin: 0.3rem;
+	padding: 0.3rem;
+	text-align: center;
+	min-width: 150px;
+}
+
+.log-reg form .log-reg-fields {
+	display: flex;
+	margin: auto;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.log-reg-fields label {
+	padding: 0.3rem;
+	width: 3rem;
+	background-color: white;
+	text-align: center;
+}
+
+.log-reg-fields input {
+	width: 15em;
+	padding: 0.3rem;
+	border: none;
+	outline: none;
+	font-size: 12pt;
+}
+
+.log-reg-fields select {
+	width: 15em;
+	padding: 0.3rem;
+	border: none;
+	outline: none;
+	font-size: 12pt;
+}
+/*--------------------------- FALTA ESTILOS ------------------------------*/
+.log-reg-fields input[type="file"] {
+	width: 3rem;
+}
+.log-reg-fields label[for="reg_photo"] {
+	font-size: 14px;
+ font-weight: 600;
+ color: #fff;
+ background-color: #106BA0;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ padding: 15px 40px !important;
+ text-transform: uppercase;
+ width: fit-content;
+ text-align: center;
+}
+#cont-soc-register #red_soc {
+	display: flex;
+	justify-content: center;
+}
+
+#cont-soc-register h4 {
+	text-align: center;
+	font-size: 24pt;
+}
+
+#cont-soc-register #red_soc>div {
+	padding: 0.6em;
+	margin: 0.5em;
+	width: 8.5em;
+	text-align: center;
+}
+
+#cont-soc-register #red_soc>div a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#cont-soc-register #red_soc>div:nth-child(1) {
+	background-color: #3b5998;
+}
+
+#cont-soc-register #red_soc>div:nth-child(2) {
+	background-color: #00acee;
+}
+
+#cont-soc-register p {
+	text-align: center;
+	padding: 0.5rem;
+}
+
+.btn_log_reg_reset {
+	padding: 0.8em 2em;
+	margin: 1em;
+	color: white;
+	background-color: brown;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#btn_register {
+	background: mediumslateblue;
+}
+
+#btn_reset {
+	background: goldenrod;
+}
+
+/*--------------------------------------------------------------*/
+#container-log-reg-2, #container-log-reg-3 {
+	display: none;
+}
+
+.anchor_user {
+	cursor: pointer;
+	text-decoration: underline;
+}

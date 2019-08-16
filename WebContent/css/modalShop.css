@@ -1,0 +1,243 @@
+/*Background para hacerlo modal*/
+.cont-articles-shop{
+	width: 100%;
+	height: 40rem;
+	overflow-y: scroll;
+}
+/*Para el contenedor del carrito de compras*/
+#cont-sale-shop {
+    position: fixed;
+    right: -22rem;
+    top: 0px;
+    width: 22rem;
+    height: 100vh;
+    z-index: 1000;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: all 0.3s;
+}
+#cont-sale-shop a {
+    text-decoration: none;
+}
+#cont-sale-shop a div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#cont-sale-shop a p {
+    text-align: center;
+    padding: 0.2rem;
+    font-size: 10pt;
+}
+#cont-sale-shop a img {
+    width: 3rem;
+    height: 2.5rem;
+}
+#cont-sale-shop-all {
+	position: fixed;
+	width: 100%;
+	z-index: 25;
+}
+
+/*Para el contenedor del carrito de compras*/
+
+#cont-sale-shop > h3:first-child {
+    height: 3rem;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-family: Roboto-bold;
+    font-size: 16pt;
+    padding: 0.2rem;
+    background: brown;
+    margin: 0px;
+}
+.article-shop {
+	position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5.5rem;
+    border-top: 1px solid black;
+}
+.article-shop:last-child {
+    border-bottom: 1px solid black;
+}
+.btn_remove_article {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: brown;
+	color: white;
+	width: 1.2rem;
+	height: 1.2rem;
+	outline: none;
+	border: none;
+	font-size: 12pt;
+	font-family: Roboto-bold;
+	margin: 0.2rem 0.4rem;
+	padding: 0.2rem;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 8pt;
+	text-align: center;
+}
+.article-shop-img {
+    width: 28.5%;
+    height: 5.5rem;
+}
+.article-shop-img img {
+    width: 100%;
+    height: 100%;
+}
+.article-shop-desc {
+	width: 71.5%;
+    height: 5.5rem;
+    text-align: center;
+}
+.article-shop-desc h4 {
+	width: 100%;
+    font-family: Roboto-regular;
+    margin: 0px;
+    font-size: 10pt;
+    padding: 0.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+.article-shop-desc .shop-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.article-shop-desc .shop-desc > div {
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+.article-shop-desc .shop-desc > div label {
+    margin-right: 0.3rem;
+    font-family: Roboto-bold;
+    font-size: 10pt;
+}
+.article-shop-desc .shop-desc > div input {
+    width: 2.5rem;
+    outline-color: brown;
+}
+.article-shop-desc .shop-desc > div span {
+    margin-right: 0.5rem;
+    font-family: Roboto-regular;
+    font-size: 10pt;
+    color: black;
+}
+.article-shop-desc > div:last-child label {
+    font-family: Roboto-regular;
+    color: black;
+    font-size: 10pt;
+}
+.cont-shop-prices {
+    position: absolute;
+    bottom: 5rem;
+    font-size: 12pt;
+    color: black;
+    width: 100%;
+}
+.shop-prices {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+.shop-prices span {
+    font-family: Roboto-bold;
+    color: dimgray;
+}
+.shop-prices:last-child span {
+    font-family: Roboto-bold;
+    color: black;
+}
+.cont-shop-btn {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-top: 1px solid black;
+}
+.cont-shop-btn .btn_shop_products {
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-family: Roboto-bold;
+    font-size: 14pt;
+    cursor: pointer;
+    text-align: center;
+    transition: color, background 0.3s;
+}
+.cont-shop-btn .btn_shop_products:nth-child(1) {
+    background: brown;
+    margin-right: 1rem;
+}
+.cont-shop-btn .btn_shop_products:nth-child(1):hover {
+    background: white;
+    color: brown;
+    border: 2px solid brown;
+}
+.cont-shop-btn .btn_shop_products:nth-child(2) {
+    background: green;
+}
+.cont-shop-btn .btn_shop_products:nth-child(2):hover {
+    background: white;
+    color: green;
+    border: 2px solid green;
+}
+/*Para el ícono del carrito de compras*/
+#cont-icon-shop {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    width: 5rem;
+    height: 3rem;
+    background: red;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0.5rem;
+    outline: none;
+    cursor: pointer;
+}
+#cont-icon-shop img {
+    width: 2rem;
+    height: 2rem;
+}
+#cont-icon-shop span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 80%;
+    left: 2.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50px;
+    background: green;
+}
+
+/*------------- Si la lista está vacía -----------------*/
+.list-shop-empty {
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	text-align: center;
+	color: white;
+	font-size: 16pt;
+	padding: 1rem;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}

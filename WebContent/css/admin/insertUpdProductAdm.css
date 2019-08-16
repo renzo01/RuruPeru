@@ -1,0 +1,35 @@
+
+#cont-addUpd-prod-all {
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0px;
+	height: 100vh;
+	width: 100%;
+	z-index: 200;
+}
+
+#cont-addUpd-prod-all > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+}
+
+#cont-addUpd-prod-all > div h2 {
+	border-bottom: 2px solid #343a40;
+	text-align: center;
+	padding-bottom: 0.5rem;
+}
+
+#cont-addUpd-prod-all > div > div {
+	margin: auto;
+	background: white;
+	border-radius: 5px;
+}
+#cont-addUpd-prod-all > div > div > form {
+	padding: 0.5rem;
+}
+#cont-addUpd-prod-all > div > div > form textarea {
+	overflow-y: scroll hidden;
+	resize: none;
+}

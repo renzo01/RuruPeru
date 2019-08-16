@@ -1,0 +1,223 @@
+
+
+/* ------------------------ Para el contenido expreso de la WEB -------------------------- */
+
+/* Para el contenedor de los productos */
+.container-content {
+    padding: 0.5rem 1rem;
+    /* background: linear-gradient(to right, var(--bg-color0), var(--bg-color1)); */
+    /* background: url("../images/content/banners/banner2.jpg") fixed; */
+    /* background: url("../images/content/banners/background-banner.jpg") fixed; */
+    /* background: url("../images/content/presentations/pres1.jpg") fixed; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,5,1) 20%, rgba(22,28,29,1) 71%, rgba(12,33,0,1) 87%, rgba(47,18,7,1) 100%);
+}
+
+/* Para el tÃ­tulo de productos */
+.container-content h3 {
+    text-align: center;
+    font-size: 36pt;
+    margin-top: 5rem;
+    padding: 1.5rem;
+}
+
+/* Para las lÃ­neas del tÃ­tulo */
+.container-content h3 div {
+    display: inline-block;
+    width: 40%;
+}
+.container-content h3 .lines-h3 {
+    width: 20%;
+    background-color: var(--bg-white);
+    height: 3px;
+}
+
+/* Para el contenedor de los arÃ­culos */
+.content-products {
+    padding: 0.5rem;
+}
+
+/*-------------------- SECCIÃ“N DE LOS ARTÃ�CULOS --------------------------*/
+/* Para el contenedor del texto y artÃ­culo */
+.cont-detail-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 90%;
+}
+.cont-detail-product > p {
+    text-align: justify;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);;
+    color: white;
+    width: 25rem;
+    max-width: 40rem;
+    border-top: 6px solid var(--cl-div-list-0);
+    border-bottom: 6px solid var(--cl-div-list-0);
+}
+
+/* Para los artÃ­culos */
+.content-products .content-products-images {
+    position: relative;
+    border: 1px solid dimgray;
+    min-width: 20rem;
+    max-width: 20rem;
+    /* background-color: var(--bg-color0); */
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 2rem;
+}
+/* Para el nombre del producto */
+.content-products .content-products-images h4 {
+    font-size: 21pt;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Para los anclajes de cada artÃ­culo */
+.content-products .anchor-products {
+    text-decoration: none;
+}
+.content-products .anchor-products h4:hover {
+    transition: all 0.3s;
+    color: var(--cl-div-list-0);
+}
+
+/* Para el contenedor de los beneficios */
+.cont-benefits {
+	
+}
+.cont-benefits ul li {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+/* Para el botÃ³n del article */
+.content-products-images figcaption {
+    padding: 1rem;
+}
+.content-products-images .btn-art-add-shop {
+	color: white;
+    background-color: seagreen;
+    font-weight: bold;
+}
+.content-products-images .btn-art-add-shop:hover {
+    background-color: var(--bg-white);
+    color: seagreen;
+    border: 2px solid seagreen;
+}
+
+/* Para las imÃ¡genes de los artÃ­culos */
+.content-products .content-products-images .images-products {
+    min-width: 8rem;
+    height: 13rem;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: bottom;
+    transition: all 0.5s;
+    border-radius: 120px 0px;
+}
+.content-products .content-products-images .images-products:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.4);
+}
+
+/* Para el contenedor de las imÃ¡genes de los productos y precios */
+.content-images-price {
+    position: relative;
+    border-bottom: 1px solid var(--bg-white);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Para el contenedor de los precios */
+.content-products-images .product-price {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    right: 0px;
+    bottom: 0px;
+    height: 2.5rem;
+    width: 9rem;
+    color: var(--cl-price);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Para el precio de los artÃ­culos */
+.content-products-images .product-price div {
+    display: inline-block;
+    font-size: 17pt;
+    margin-left: 3px;
+}
+.content-products-images .product-price .price-decimal {
+    font-size: 10pt;
+}
+
+/* Para la iamgen de cinta */
+.icon-cinta {
+    width: 3rem;
+    height: 3rem;;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+/* Para el botÃ³n del article */
+.cont-cant-add-shop form {
+	display: flex;
+	justify-content: space-around;
+	padding: 0.8rem;
+	align-items: center;
+}
+.cont-cant-add-shop form > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	margin-top: 0.5rem;
+}
+.cont-cant-add-shop form > div input {
+	width: 1.5rem;
+	height: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+}
+.cont-cant-add-shop input[type=number]::-webkit-inner-spin-button, 
+.cont-cant-add-shop input[type=number]::-webkit-outer-spin-button { 
+  	-webkit-appearance: none; 
+  	margin: 0; 
+}
+.btn-cant-add-shop-down, .btn-cant-add-shop-up {
+	width: 1.5rem;
+	height: 1.5rem;
+	text-align: center;
+} 
+.cont-cant-add-shop .btn-art-add-shop {
+    width: 10rem;
+    height: 2.2rem;
+    margin-top: 1rem;
+    background-color: seagreen;
+    border: none;
+    color: var(--bg-white);
+    cursor: pointer;
+    outline-color: var(--cl-listas);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+	margin-bottom: 0.5rem; 
+}
+
+/*-------------------- FIN DE SECCIÃ“N DE LOS ARTÃ�CULOS --------------------------*/
+footer {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,5,1) 20%, rgba(22,28,29,1) 71%, rgba(12,33,0,1) 87%, rgba(47,18,7,1) 100%);
+}
+.content-footer > div {
+    border-bottom: 3px solid var(--cl-div-list-0);
+    padding: 1.5rem;
+}

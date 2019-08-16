@@ -1,0 +1,65 @@
+#cont-infoProvider-all {
+    margin: 0px;
+    padding: 0px;
+}
+#cont-infoProvider-all > div:nth-child(1) {
+    background: rgba(0, 0, 0, 0.5);
+}
+#cont-infoProvider-all > div:nth-child(1) h3 {
+    color: white;
+    font-size: 14pt;
+    font-family: Roboto-bold;
+    text-align: center;
+    padding: 0.5rem;
+}
+#cont-infoProvider-all > div:nth-child(1) p {
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    padding: 0.5rem;
+}
+#infoProvider-element-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.infoProvider-element {
+    min-width: 19rem;
+    max-width: 30rem;
+    min-height: 20rem;
+    background: rgba(22,28,29,1);
+    border: 1px solid brown;
+    margin-top: 1.5rem;
+}
+.infoProvider-element > div:nth-child(1) {
+    width: 100%;
+}
+.infoProvider-element > div:nth-child(1) img {
+    width: 100%;
+    min-height: 201px;
+}
+.infoProvider-element > div:nth-child(2) {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.infoProvider-element > div:nth-child(2) h4 {
+    font-size: 12pt;
+    font-family: Roboto-bold;
+    padding: 0.5rem;
+}
+.infoProvider-element > div:nth-child(2) h5 {
+    font-size: 11pt;
+    font-family: Roboto-bold;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.7);
+}
+.infoProvider-element > div:nth-child(2) p {
+    font-size: 10pt;
+    font-family: Roboto-regular;
+    text-align: center;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+}
